@@ -21,6 +21,10 @@ ul {
     margin: 0 auto;  
 }
 
+.container-header {
+    display: flex;
+}
+
 .header-page {
     border-bottom: 1px solid #e7e9fc;
 }
