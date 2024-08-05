@@ -13,6 +13,8 @@ img {
 
 ul {
     list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 .container { 
@@ -23,6 +25,9 @@ ul {
 
 .container-header {
     display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-page {
@@ -32,69 +37,13 @@ ul {
 .header-nav {
     display: flex; 
     align-items: center; 
-}
-
-.logo-part,
-.logo-header {
-    margin-right: 76px;
+    margin-right: auto;
 }
 
 .ul-nav {
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-right: 332px;
-}
-
-.li-nav {
-    display: flex;
-    padding: 24px 0;
-}
-
-.ul-address {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
-.logo-part {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
-
-}
-
-.logo-header {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2e2f42;
-    text-decoration: none;
-}
-
-.logo-footer {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #f4f4fd;
-    text-decoration: none;
-}
-
-.logo-footer:hover,
-.logo-footer:focus,
-.logo-part:hover,
-.logo-part:focus,
-.logo-header:hover,
-.logo-header:focus {
-    text-decoration: underline;
 }
 
 .li-nav {
@@ -104,12 +53,63 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    display: flex;
 }
 
 .li-nav:hover, 
 .li-nav:focus {
     text-decoration: underline;
     color: #404bbf
+}
+
+.ul-address {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo-part {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+
+.logo-header {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+    text-decoration: none;
+    margin-right: 76px;
+}
+
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+    text-decoration: none;
+    margin-top: 0;
+}
+
+.logo-footer:hover,
+.logo-footer:focus,
+.logo-part:hover,
+.logo-part:focus,
+.logo-header:hover,
+.logo-header:focus {
+    text-decoration: underline;
 }
 
 .address {
@@ -146,10 +146,13 @@ ul {
     text-align: center;
     color: #ffffff;
     max-width: 496px;
+    margin-top: 0;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button-page {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -162,6 +165,10 @@ ul {
     height: 56px;
     border: none; 
     border-radius: 4px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button-page:hover,
@@ -201,6 +208,7 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: left;
+    margin-top: 0;
     margin-bottom: 8px;
 }
 
@@ -211,6 +219,7 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: left;
+    margin: 0;
 }
 
 .section-team {
@@ -240,6 +249,7 @@ ul {
     color: #2e2f42;
     text-transform: capitalize;
     margin-bottom: 72px;
+    margin-top: 0;
 }
 
 .info-team {
@@ -254,6 +264,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-top: 0;
     margin-bottom: 8px;
 }
 
@@ -264,6 +275,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin: 0;
 }
 
 .section-solutions,
@@ -304,6 +316,7 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: left;
+    margin-top: 0;
     margin-bottom: 8px;
 }
 
@@ -314,6 +327,7 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
     color: #434455;
     text-align: left;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
@@ -323,17 +337,6 @@ padding-bottom: 120px;
     padding-bottom: 100px;
 }
 
-.logo-part,
-.logo-footer,
-.logo-header {
-    display: inline-block; 
-}
-
-.logo-part,
-.logo-footer {
-    margin-bottom: 16px;
-}
-
 .footer-text {
     font-weight: 400;
     font-size: 16px;
@@ -341,5 +344,8 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     text-align: left;
+    max-width: 264px;
+    margin: 0;
+    margin-top: 16px;
 }
 
