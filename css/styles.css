@@ -43,8 +43,6 @@ ul {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .li-nav {
@@ -55,6 +53,8 @@ ul {
     color: #2e2f42;
     text-decoration: none;
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .li-nav:hover, 
@@ -103,6 +103,7 @@ ul {
     color: #4d5ae5;
     text-decoration: none;
     display: inline-block; 
+    margin-bottom: 16px;
 }
 
 .logo-footer {
@@ -115,7 +116,6 @@ ul {
     color: #f4f4fd;
     text-decoration: none;
     margin-top: 0;
-    margin-bottom: 16px;
 }
 
 .logo-footer:hover,
